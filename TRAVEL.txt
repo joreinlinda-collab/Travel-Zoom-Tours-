@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Zoom Tours | Discover Sri Lanka with Local Experts</title>
+    <meta name="description" content="Discover Sri Lanka with Travel Zoom Tours. Explore cultural heritage, wildlife, scenic landscapes, authentic experiences, and personalized tour packages.">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Travel Zoom Tours | Discover Sri Lanka with Local Experts">
+    <meta property="og:description" content="Explore cultural heritage, wildlife, scenic landscapes, and personalized tour packages across Sri Lanka.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://travelzoomtours.com">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-main">Travel Zoom</span>
+                <span class="logo-sub">Tours</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#packages" class="nav-link">Tour Packages</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#experiences" class="nav-link">Experiences</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#planner" class="btn btn-nav-mobile">Plan Your Trip</a></li>
+            </ul>
+            <a href="#planner" class="btn btn-secondary btn-nav">Plan Your Trip</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Discover the Wonder of Sri Lanka</h1>
+            <p class="fade-in delays-1">Unforgettable journeys, authentic experiences, and personalized tours across the beautiful island of Sri Lanka.</p>
+            <div class="hero-actions fade-in delays-2">
+                <a href="#packages" class="btn btn-primary">Explore Tour Packages</a>
+                <a href="https://wa.me/94702216999" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                    <svg class="icon-wa" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.588 1.451 5.623 1.453 5.483 0 9.944-4.461 9.947-9.95.002-2.66-1.033-5.159-2.908-7.038C17.436 1.741 14.933.707 12.27.707c-5.49 0-9.95 4.46-9.953 9.95-.001 2.086.543 4.12 1.574 5.922l-1.033 3.776 3.879-1.017zm11.332-6.574c-.301-.15-1.781-.879-2.056-.979-.275-.1-.475-.15-.675.15-.2.3-.775.979-.95 1.179-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.487-.89-.794-1.49-1.774-1.665-2.074-.175-.3-.019-.462.13-.611.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.52-.172-.007-.37-.01-.567-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.781-.728 2.031-1.43.25-.702.25-1.303.175-1.43-.075-.127-.275-.202-.575-.352z"/></svg>
+                    Plan on WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Why Travel With Us Section -->
+    <section class="features section-padding">
+        <div class="container">
+            <div class="section-title-wrap text-center animate-scroll">
+                <span class="subtitle">Excellence in Service</span>
+                <h2>Why Travel With Us?</h2>
+            </div>
+            <div class="grid grid-4">
+                <div class="card feature-card animate-scroll">
+                    <div class="feature-icon">✨</div>
+                    <h3>Personalized Tour Experiences</h3>
+                    <p>Tailored match-ups for your pace, style, and travel dreams across the island.</p>
+                </div>
+                <div class="card feature-card animate-scroll">
+                    <div class="feature-icon">🏝️</div>
+                    <h3>Local Knowledge & Expertise</h3>
+                    <p>Deep native insight into hidden pathways, historic facts, and authentic routes.</p>
+                </div>
+                <div class="card feature-card animate-scroll">
+                    <div class="feature-icon">⏳</div>
+                    <h3>Flexible Travel Itineraries</h3>
+                    <p>Adaptable plans designed to let you linger longer at the sights you love most.</p>
+                </div>
+                <div class="card feature-card animate-scroll">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Friendly, Reliable Service</h3>
+                    <p>Dedicated personal support from arrival to departure for total peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tour Packages Section -->
+    <section class="packages section-padding bg-ivory" id="packages">
+        <div class="container">
+            <div class="section-title-wrap text-center animate-scroll">
+                <span class="subtitle">Curated Journeys</span>
+                <h2>Featured Tour Packages</h2>
+            </div>
+            <div class="grid grid-3">
+                <!-- Package 1 -->
+                <div class="card package-card animate-scroll">
+                    <div class="card-img-wrap">
+                        <div class="fallback-img green-gradient"></div>
+                        <span class="tag">Historic</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Ancient Heritage of Sri Lanka</h3>
+                        <p class="duration">7 Days / 6 Nights</p>
+                        <p class="description"><strong>Route:</strong> Colombo → Anuradhapura → Mihintale → Sigiriya → Kandy. Experience absolute majesty starting directly in the sacred kingdom city.</p>
+                        <div class="card-footer">
+                            <span class="price-type">Request a Quote</span>
+                            <a href="#planner" class="btn btn-secondary btn-sm text-link">View Tour</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 2 -->
+                <div class="card package-card animate-scroll">
+                    <div class="card-img-wrap">
+                        <div class="fallback-img gold-gradient"></div>
+                        <span class="tag">Adventure</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Cultural Triangle Adventure</h3>
+                        <p class="duration">5 Days / 4 Nights</p>
+                        <p class="description">Dive headfirst into ancient fortresses, monolithic rocks, and sacred shrines holding centuries of island heritage.</p>
+                        <div class="card-footer">
+                            <span class="price-type">Request a Quote</span>
+                            <a href="#planner" class="btn btn-secondary btn-sm text-link">View Tour</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 3 -->
+                <div class="card package-card animate-scroll">
+                    <div class="card-img-wrap">
+                        <div class="fallback-img charcoal-gradient"></div>
+                        <span class="tag">Nature</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Wildlife & Nature Escape</h3>
+                        <p class="duration">6 Days / 5 Nights</p>
+                        <p class="description">Track leopards in Yala, witness elephant gatherings, and explore deep jungle sanctuaries bursting with life.</p>
+                        <div class="card-footer">
+                            <span class="price-type">Request a Quote</span>
+                            <a href="#planner" class="btn btn-secondary btn-sm text-link">View Tour</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 4 -->
+                <div class="card package-card animate-scroll">
+                    <div class="card-img-wrap">
+                        <div class="fallback-img green-gradient"></div>
+                        <span class="tag">Scenic</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Hill Country Scenic Journey</h3>
+                        <p class="duration">6 Days / 5 Nights</p>
+                        <p class="description">Wander through emerald tea estates, cascading waterfalls, mist-shrouded Ella, and historical Nuwara Eliya tracks.</p>
